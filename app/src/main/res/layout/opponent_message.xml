@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<android.support.constraint.ConstraintLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="8dp">
+
+    <TextView
+            android:background="@drawable/opponent_message_bg"
+            android:textSize="20sp"
+            android:id="@+id/message_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:maxWidth="240dp"
+            android:padding="8dp"
+            android:textColor="#ddd"
+            tools:text="message"/>
+
+    <EditText
+            android:textSize="20sp"
+            android:padding="8dp"
+            android:visibility="gone"
+            android:id="@+id/message_edit"
+            android:imeOptions="actionDone"
+            android:background="@color/orange"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+</android.support.constraint.ConstraintLayout>
